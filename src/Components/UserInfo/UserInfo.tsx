@@ -41,7 +41,7 @@ const submitData = () => {
           id="age"
           name="age"
           value={age}
-          onChange={(e)=> {setAge(e.target.valueAsNumber)}}
+          onChange={(e)=> {setAge(parseFloat(e.target.value))}}
        
           placeholder="Enter Age"
         />
