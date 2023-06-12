@@ -13,7 +13,7 @@ const ageDispatchFun = (newAge: any) => {
   };
 
   const cmpDispatchFun = (newCmp: any) => {
-    dispatch({ type: "setCmp", payload: {newCmp} });
+    dispatch({ type: "setCmp", payload: { newCmp } });
   };
 
   const submitData = () => {
